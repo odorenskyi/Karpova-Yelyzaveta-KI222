@@ -1,5 +1,5 @@
 #include <iostream>
-#include <windows.h>
+#include <clocale>
 #include <cmath>
 #include "ModulesKarpova.h"
 
@@ -7,8 +7,7 @@ using namespace std;
 
 int main()
 {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    setlocale(LC_ALL,"ukr");
 
     float x[5] = {13, 7, 0, 16, 5};
     float y[5] = {6, 3, 9, 7, 11};

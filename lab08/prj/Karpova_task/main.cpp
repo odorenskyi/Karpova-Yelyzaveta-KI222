@@ -1,43 +1,42 @@
 #include <iostream>
-#include <windows.h>
+#include <clocale>
 #include <cmath>
 #include "ModulesKarpova.h"
 
 using namespace std;
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    setlocale(LC_ALL,"ukr");
 
     int x, y, z;
     char a, b;
 
-    cout << "\© Karpova Elizaveta" << endl;
+    cout << "\© Karpova Yelyzaveta" << endl;
 
-    cout << "";
+    cout << "Введiть значення a: ";
     cin >> a;
 
-    cout << "";
+    cout << "Введiть значення b: ";
     cin >> b;
 
     cout << boolalpha << (a + 5 >= b) << endl;
 
-    cout << "";
+    cout << "Введiть значення x: ";
     cin >> x;
 
-    cout << "" << dec << x << "" << hex << x << endl;
+    cout << "X у десятковiй системi числення: " << dec << x << ", X у шiстнадцятковiй системi числення: " << hex << x << endl;
 
-    cout << "";
+    cout << "Введiть значення y: ";
     cin >> y;
 
-    cout << "" << dec << y << "" << hex << y << endl;
+    cout << "Y у десятковiй системi числення: " << dec << y << ", Y у шiстнадцятковiй системi числення: " << hex << y << endl;
 
-    cout << "";
+    cout << "Введiть значення z: ";
     cin >> z;
 
-    cout << "" << dec << z << "" << hex << z << endl;
+    cout << "Z у десятковiй системi числення: " << dec << z << ", Z у шiстнадцятковiй системi числення: " << hex << z << endl;
 
-    cout << "" << s_calculation(x, y, z);
+    cout << "Рузультат обчислення S: " << s_calculation(x, y, z);
 
     return 0;
 }
