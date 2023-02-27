@@ -12,32 +12,32 @@ int main() {
     int x, y, z;
     char a, b;
 
-    cout << "\© Karpova Elizaveta" << endl;
+    cout << "\¬© Karpova Elizaveta" << endl;
 
-    cout << "¬вед≥ть значенн€ a: ";
+    cout << "";
     cin >> a;
 
-    cout << "¬вед≥ть значенн€ b: ";
+    cout << "";
     cin >> b;
 
     cout << boolalpha << (a + 5 >= b) << endl;
 
-    cout << "¬вед≥ть значенн€ x: ";
+    cout << "";
     cin >> x;
 
-    cout << "X у дес€тков≥й систем≥ численн€: " << dec << x << ", ’ у ш≥стнадц€тков≥й систем≥ численн€: " << hex << x << endl;
+    cout << "" << dec << x << "" << hex << x << endl;
 
-    cout << "¬вед≥ть значенн€ y: ";
+    cout << "";
     cin >> y;
 
-    cout << "Y у дес€тков≥й систем≥ численн€: " << dec << y << ", Y у ш≥стнадц€тков≥й систем≥ численн€: " << hex << y << endl;
+    cout << "" << dec << y << "" << hex << y << endl;
 
-    cout << "¬вед≥ть значенн€ z: ";
+    cout << "";
     cin >> z;
 
-    cout << "Z у дес€тков≥й систем≥ численн€: " << dec << z << ", Z у ш≥стнадц€тков≥й систем≥ численн€: " << hex << z << endl;
+    cout << "" << dec << z << "" << hex << z << endl;
 
-    cout << "–езультат обчисленн€ S: " << s_calculation(x, y, z);
+    cout << "" << s_calculation(x, y, z);
 
     return 0;
 }
