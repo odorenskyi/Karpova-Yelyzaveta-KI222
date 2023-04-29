@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1682777415 source:f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab09\prj\karpova_task\main.cpp
+	<iostream>
+	<cctype>
+	<clocale>
+	<string>
+	<cmath>
+	"ModulesKarpova.h"
+
+1682776815 f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab09\prj\karpova_task\modul\moduleskarpova.h
+
