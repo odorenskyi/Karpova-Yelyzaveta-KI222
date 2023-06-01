@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1685642604 source:f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab11\prj\prj_10_karpova\main.cpp
+	<codecvt>
+	<locale>
+	<iostream>
+	"ModulesTkachenko.h"
+	"ModulesTitarova.h"
+	"ModulesKarpova.h"
+
+1685641902 f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab11\prj\modulestkachenko.h
+	<vector>
+	"struct_type_project_10.h"
+
+1685641812 f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab11\prj\struct_type_project_10.h
+	<string>
+	<vector>
+
+1685641935 f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab11\prj\modulestitarova.h
+	<vector>
+	"struct_type_project_10.h"
+
+1685642013 f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab11\prj\moduleskarpova.h
+	<vector>
+	"struct_type_project_10.h"
+
