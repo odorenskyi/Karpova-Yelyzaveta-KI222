@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1685814159 source:f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab12\prj\teacher\teacher.cpp
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<sys/stat.h>
+	<vector>
+	"ModulesKarpova.h"
+
+1685813486 f:\memories\сых\сьђя\karpova-yelyzaveta-ki222\lab12\prj\moduleskarpova.h
+
